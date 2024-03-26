@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "prod_A2b8H3i1J4k0",
+      "name": "Basic Tee (Sienna)",
+      "price": 3200,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/basic-tee-sienna.jpeg"
+    },
+    {
+      "id": "prod_D5e6F4g2H9i8",
+      "name": "Basic Tee (Black)",
+      "price": 3200,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/basic-tee-black.jpeg"
+    },
+    {
+      "id": "prod_G7h4I5j3K2l1",
+      "name": "Nomad Tumbler",
+      "price": 3500,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/nomad-tumbler.jpeg"
+    },
+    {
+      "id": "prod_J1k2L3m4N5o6",
+      "name": "Artwork Tee",
+      "price": 3200,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/artwork-tee.jpeg"
+    },
+    {
+      "id": "prod_B9c2M4n7O1p8",
+      "name": "Billfold Wallet",
+      "price": 11800,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/billfold-wallet.jpeg"
+    },
+    {
+      "id": "prod_K3l7M2n1O4p5",
+      "name": "Mini Sketchbook Set",
+      "price": 2800,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/mini-sketchbook-set.jpeg"
+    },
+    {
+      "id": "prod_N5o1P2q3R4s6",
+      "name": "Organize Set",
+      "price": 14900,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/organize-set.jpeg"
+    },
+    {
+      "id": "prod_P8q9R7s2T3u4",
+      "name": "Machined Pen & Pencil",
+      "price": 7000,
+      "currency": "USD",
+      "image": "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/machine-pen-pencil-set.jpeg"
+    }
+  ]
+}
