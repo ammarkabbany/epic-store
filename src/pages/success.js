@@ -36,7 +36,7 @@ export default function SuccessPage() {
           <h2 className="text-4xl font-semibold flex flex-col items-center space-x-1">
             Thanks for your order!
           </h2>
-          <p className="text-lg">Check your email (email) for your invoice.</p>
+          <p className="text-lg">Check your email {email} for your invoice.</p>
         </div>
       )}
     </div>
