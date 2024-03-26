@@ -3,10 +3,9 @@ import Link from "next/link";
 import CartProduct from "src/components/CartProduct";
 import { useShoppingCart } from "use-shopping-cart";
 import { useState } from "react";
-import { formattedTotalPrice } from "use-shopping-cart";
 
 export default function CartPage() {
-    const { cartCount, cartDetails, clearCart, redirectToCheckout } = useShoppingCart();
+    const { cartCount, cartDetails, clearCart, redirectToCheckout, formattedTotalPrice } = useShoppingCart();
     const [isRedirecting, setRedirecting] = useState(false)
 
     async function onCheckout() {
@@ -65,7 +64,7 @@ export default function CartPage() {
                 <div className="flex flex-col items-end border-t py-4 mt-8">
                     <p className="text-xl">
                         Total:{" "}
-                        <span className="font-semibold">${formattedTotalPrice}{" "}</span>
+                        <span className="font-semibold">{formattedTotalPrice}{" "}</span>
                     </p>
                     <button
                     disabled={isRedirecting}
