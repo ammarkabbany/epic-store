@@ -10,7 +10,7 @@ const inter = Inter({
 
 export default function AppLayout({ children }) {
     return (
-        <div className={`${inter.variable} font-sans min-h-screen flex flex-col`}>
+        <div className={`${inter.variable} font-sans min-h-screen flex flex-col min-w-fit`}>
             <Meta />
             <Header />
             <main className="flex-grow bg-[#f7f7f7]">
