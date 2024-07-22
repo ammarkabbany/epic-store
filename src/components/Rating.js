@@ -1,7 +1,7 @@
 import { StarIcon } from "@heroicons/react/24/solid"
 import { StarIcon as OutlineStarIcon } from "@heroicons/react/24/outline"
 
-export default function Rating(/* props later */) {
+export default function Rating(/* pass prop of stars */) {
     return (
         <div className="flex items-center -ml-1">
             {Array.from({ length: 4 }).map((_, index) => {
